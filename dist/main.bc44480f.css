@@ -75,7 +75,7 @@ body #page section {
   height: 100px;
   margin: 5vw;
   border-radius: 50%;
-  background-color: indianred;
+  background-color: coral;
 }
 #app3 #circular.change {
   animation: circular 1s linear infinite;
@@ -90,4 +90,4 @@ body #page section {
 }
 
 
-/*# sourceMappingURL=main.c9eff8c2.css.map */
+/*# sourceMappingURL=main.bc44480f.css.map */
