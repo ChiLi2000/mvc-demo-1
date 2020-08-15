@@ -1,0 +1,19 @@
+#app3 #circular {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 5vw;
+  border-radius: 50%;
+  background-color: indianred;
+}
+#app3 #circular.change {
+  animation: circular 1s linear infinite;
+}
+@keyframes circular {
+  0% {
+  }
+
+  100% {
+    background-color: blueviolet;
+  }
+}

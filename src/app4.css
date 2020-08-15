@@ -1,0 +1,10 @@
+#app4 #square {
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+  margin: 1vw;
+  transition: transform 1s linear;
+}
+#app4 #square.change {
+  transform: translateY(150px);
+}

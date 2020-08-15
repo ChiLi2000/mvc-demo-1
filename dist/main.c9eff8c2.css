@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+  overflow: hidden;
+}
+body #page {
+  display: flex;
+  flex-wrap: wrap;
+}
+body #page section {
+  border: 1px solid black;
+  width: 50vw;
+  height: 50vh;
+}
+
+#page > #app1 > #content {
+  margin: 30px;
+}
+#page > #app1 > #buttons {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+#app1 button {
+  padding: 4px 8px;
+  margin-right: 20px;
+}
+
+#app2 ol {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#app2 > #nav li {
+  border: 1px solid gray;
+  width: 50vw;
+}
+#app2 > #content li {
+  padding: 40px;
+  width: 50vw;
+  height: 40vh;
+  display: none;
+}
+#app2 > #nav li.active {
+  background-color: hotpink;
+}
+#app2 > #content li.active {
+  display: block;
+}
+
+#app4 #square {
+  border: 1px solid red;
+  width: 100px;
+  height: 100px;
+  margin: 1vw;
+  transition: transform 1s linear;
+}
+#app4 #square.change {
+  transform: translateY(150px);
+}
+
+#app3 #circular {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 5vw;
+  border-radius: 50%;
+  background-color: indianred;
+}
+#app3 #circular.change {
+  animation: circular 1s linear infinite;
+}
+@keyframes circular {
+  0% {
+  }
+
+  100% {
+    background-color: blueviolet;
+  }
+}
+
+
+/*# sourceMappingURL=main.c9eff8c2.css.map */

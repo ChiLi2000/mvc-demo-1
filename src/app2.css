@@ -1,0 +1,20 @@
+#app2 ol {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#app2 > #nav li {
+  border: 1px solid gray;
+  width: 50vw;
+}
+#app2 > #content li {
+  padding: 40px;
+  width: 50vw;
+  height: 40vh;
+  display: none;
+}
+#app2 > #nav li.active {
+  background-color: hotpink;
+}
+#app2 > #content li.active {
+  display: block;
+}
