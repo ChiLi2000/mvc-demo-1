@@ -9,8 +9,14 @@ yarn global add parcel-bundler
 parcel src/index.html
 
 ```
-## 修改上传
+## 上传
+在 package.json 文件里加上 
 ```
-rm -rf dist 
-parcel build src/index.html --no-minify --public-url ./
+"scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  }
+```
+当二次上传时可一键build
+```
+yarn build
 ```
